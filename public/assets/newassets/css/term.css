@@ -1,0 +1,374 @@
+.termfields ,.displayarea, .empdisplayarea, .yu78{
+    background-color: #FFF;/*#F2F7FC;*/
+    border: 0px solid #BBBBBB;
+    box-shadow: 1px 1px 5px #888;
+    height: auto;
+    margin-top: 10px;    
+    position: relative;
+}
+.yu78{
+	min-height:393px;
+}
+.displayarea{
+	min-height: 510px;
+}
+.displayareac{
+    border: 1px solid #BBBBBB;
+    height: auto;
+    margin-top: 10px;    
+    position: relative;
+}
+.ctms {
+    background: none repeat scroll 0 0 transparent;
+    color: #888888;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    border-bottom: 1px solid #aaa;
+}
+.jh14 {
+    padding: 10px;
+    min-height: 45px;
+    max-height: 45px;
+    overflow: auto;
+}
+.jh142 {
+    padding: 10px;
+    min-height: 45px;
+    overflow: auto;
+}
+.ctmscon {
+    padding: 10px;
+    min-height: 120px;
+    max-height: 540px;
+    overflow: auto;
+}
+.ctmscon label {
+    font-size: 12px;
+}
+.ctmscon label span, .ctmscon .td1 span {
+    font-weight: 700;
+    color:rgba(255,0,0, 0.7);
+}
+.ctmscon button{
+    border-radius: 0;
+    height: 40px;
+    margin: 7px 0 0;
+    width: 49%;
+}
+
+
+
+#displayTerm, #aysDiv, #displaySchoolclasses, #displayCourse, 
+#displaySubject, #displayHouse, #displayDepartment {
+    min-height: 343px;
+    padding:5px;
+    overflow: auto;
+}
+
+.jh0i {
+    min-height: 343px;
+    overflow: auto;
+}
+.emplistarea{
+	min-height: 477px;
+    overflow: auto;
+}
+.empcht1{
+	width:280px;
+	height:220px;
+	border:1px dotted blue;
+	margin:7px;
+}
+.empcht2{
+	text-align:center;
+	width:280px;
+	height:220px;
+	border:1px dotted green;
+	margin:15px 7px 7px 7px;
+}
+#number-of-emp{
+	text-align: center;
+	font-size: 100px;
+	line-height:130px;
+	padding:1px;
+	border: 0px dotted red;
+	color:rgba(50, 125, 210, 0.5);
+}
+#text-of-emp{
+	color: rgba(10, 15, 0, 0.8);
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+
+#displayHouse table, #displaySubject table, #displayCourse table, #displayPeriod table, 
+#displayTeachP table, #displayBreak table, #displayTerm table, #aysDiv table, 
+#displaySchoolclasses table, #displayDepartment table, .emplistarea table {
+	background-color: #deeefd;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#displayHouse table thead tr, #displaySubject table thead tr, #displayCourse table thead tr, 
+#displayPeriod table thead tr, #displayTeachP table thead tr, #displayBreak table thead tr,
+#displayTerm table thead tr, #aysDiv table thead tr, #displaySchoolclasses table thead tr, 
+.emplistarea table thead tr, #displayDepartment table thead tr {
+    background-color: #deeefd;
+    border-bottom:1px solid #555;
+    color: #404040;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: bolder;
+    border-top:1px solid #888888;
+}
+
+#displayDepartment table thead tr:first-child th,
+#displayHouse table thead tr:first-child th, #displaySubject table thead tr:first-child th, 
+#displayCourse table thead tr:first-child th, #displayPeriod table thead tr:first-child th, 
+#displayTeachP table thead tr:first-child th, #displayBreak table thead tr:first-child th, 
+#displayTerm table thead tr:first-child th, #aysDiv table thead tr:first-child th, 
+#displaySchoolclasses table thead tr:first-child th, #emplistarea table thead tr:first-child th {
+    padding: 10px;
+    text-align: left;
+}
+
+#displayDepartment table tbody td,
+#displayHouse table tbody td, #displaySubject table tbody td, #displayCourse table tbody td, 
+#displayPeriod table tbody td, #displayTeachP table tbody td, #displayBreak table tbody td,
+#displayTerm table tbody td, #aysDiv table tbody td, #displaySchoolclasses table tbody td{
+	vertical-align:middle;	
+	background-color:#F2F7FC;
+	text-align:left;
+	text-transform:capitalize;
+	padding:2px;
+	padding-left:10px;
+	font-size:12px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#404040;
+}
+
+#displayDepartment table tbody td a,
+#displayHouse table tbody td a, #displaySubject table tbody td a, #displayCourse table tbody td a, 
+#displayPeriod table tbody td a, #displayTeachP table tbody td a, #displayBreak table tbody td a,
+#displayTerm table tbody td a, #aysDiv table tbody td a,  #displaySchoolclasses table tbody td a{
+	color:#000000;
+}
+
+#displayTerm #activeterm td,
+#aysDiv #activeyear td {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+
+#displayDepartment table tbody tr:hover td,
+#displayHouse table tbody tr:hover td, #displaySubject table tbody tr:hover td, #displayCourse table tbody tr:hover td,
+#displayPeriod table tbody tr:hover td, #displayTeachP table tbody tr:hover td, #displayBreak table tbody tr:hover td,
+#displayTerm table tbody tr:hover td, #aysDiv table tbody tr:hover td, #displaySchoolclasses table tbody tr:hover td{
+	background-color:#d3e9ff;
+	//text-transform:uppercase;
+}
+
+#displayDepartment table tbody tr,
+#displayHouse table tbody tr, #displaySubject table tbody tr, #displayCourse table tbody tr,
+#displayPeriod table tbody tr, #displayTeachP table tbody tr, #displayBreak table tbody tr,
+#displayTerm table tbody tr, #aysDiv table tbody tr, #displaySchoolclasses table tbody tr{
+	border-bottom:1px solid #ccc;
+}
+
+#displayTerm #activeterm td:last-child,
+#aysDiv #activeyear td:last-child {
+    text-decoration: line-through;
+}
+
+/************************************************************/
+/******** ACADEMIC YEAR STYLES ******************************/
+.empfields{
+    background-color: #fff;
+    border: 1px solid #BBBBBB;
+    margin-top: 10px; 
+    min-height: 504px;   
+    position: relative;
+    overflow:auto;
+}
+.yearfields{
+    height: auto;
+    background-color: #F2F7FC;
+    border: 1px solid #BBBBBB;
+    box-shadow: 1px 1px 5px #888888;
+    margin-top: 10px;  
+    position: relative;
+}
+
+/*********** SCHOOL CLASSES *********************/
+.formfields{
+    background-color: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-shadow: 1px 1px 5px #888888;
+    margin-top: 10px; 
+    min-height: 500px;   
+    position: relative;
+}
+
+/* #displaySchoolclasses table tbody td:nth-child(2), */ 
+#displaySchoolclasses table tbody td:last-child{
+	text-align: center;
+}
+
+/************ SCHOOL INFORMATION *******************/
+.sdicon{
+    padding: 10px 0;
+}
+.sdicon label {
+    font-size: 12px;
+}
+.sdicon label span {
+    font-weight: 700;
+    color:rgba(255,0,0,0.7);
+}
+.sdicon input {
+    //text-transform: capitalize;
+}
+.sdicon button{
+    border-radius: 0;
+    height: 40px;
+    margin: 7px 0 0;
+    width: 150px;
+}
+.esicon{
+	font-size: 15px;
+	box-shadow:0px 0px 9px -4px #011;
+	margin:0 25px;
+	padding:15px;
+}
+.esfcom{
+	font-size: 15px;
+	box-shadow:0px 0px 9px -4px #011;
+	margin:0 25px;
+	padding:10px 15px; 
+}
+.ebn{
+	text-align: right;
+}
+.slogocont{
+	
+}
+.ebn button{
+	border-radius: 1px;
+    font-size:12px;
+    padding:1px 12px;
+}
+.sdicon button#btnEditSchoolData {
+    border-radius: 0;
+    height: 50px;
+    margin: 20px 0 0;
+    width: auto;
+}
+
+
+/*************** EMPLOYEE DATA **************/
+.empscon {
+    padding: 10px;
+    overflow:hidden;
+}
+.empscon label {
+    font-size: 12px;
+}
+.empscon .td1 span {
+    font-weight: 700;
+    color:rgba(255,0,0,0.7);
+}
+.empscon button{
+    border-radius: 0;
+    height: 40px;
+    margin: 7px 0 0;
+    width: 150px;
+}
+.empscon table{
+	border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.empscon table textarea, .sdicon textarea, .sdicon textarea[disabled], .sdicon textarea[readonly],
+.empscon table input,.sdicon input,
+.empscon table select,.sdicon select
+{
+    background-color: #FFFFFF; background: #FFFFFF;
+    border: 1px solid rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    
+}
+
+.sdicon textarea,.sdicon input[type='text'],.sdicon select{
+	font-size: 20px;
+}
+
+
+/*************** Students List **************/
+.clh{
+	padding:5px; text-transform:capitalize; font:900 16px helvetica; text-align: center;
+	background: #89f;
+}
+.clh span{
+	border-bottom:1px solid transparent;
+	color:#fff;
+}
+.cltags{
+	text-align: center; 
+	padding:10px; 
+	border-radius:2px; 
+	border:1px solid #bbdddd; 
+	margin-bottom:15px; 
+	font-weight:bolder;
+}
+.cltags a{
+	color:#888888;
+	text-decoration: none; 
+    cursor: pointer;
+    font-weight: bolder;
+    text-align: center;
+	padding:10px;
+}
+
+.cltags:hover {
+	background: #ccdddd; border:1px solid #aacccc;
+}
+
+.cltags:hover a {
+	 color:#333;
+}
+
+/****************************************************/
+.spname{
+	box-shadow: 0 0 2px 1px #89a;
+    color: #3b4c5d;
+    font-size: 12px;
+    margin-left: 3px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 2px 12px 2px 5px;
+}
+
+.spname span{
+	padding:0 2px; 
+}
+
+.spnamen{
+	box-shadow: 0 0 2px 1px rgba(200, 0, 0, 1);
+    color: rgba(150, 0, 0, 1);
+    font-size: 12px;
+    margin-left: 3px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 2px 12px 2px 5px;
+}

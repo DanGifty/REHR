@@ -1,0 +1,195 @@
+/**
+	Time table print css for print
+*/
+.pcon{ display:block; }
+.parea{ 
+	display:block;
+	color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 20px; 
+}
+
+.ttpa {
+	padding: 1px 5px; 
+	margin:10px 5px 0 5px; 
+	border: 1px solid #bbb; 
+	background: #ccc;
+	color: #04d;
+	font-weight: 900;
+	text-transform:capitalize;
+}
+.ttpc{
+	padding: 5px; 
+	margin:0 5px 10px; 
+	border: 1px solid darkgray;
+	min-height: 150px;
+}
+.displaytable{
+	width:100%;
+	border-top: 1px solid #000000;
+	border-left: 1px solid #000000;
+}
+.tdDay, .tdDay1{
+	width:10%;
+	border-right: 1px solid #000000;
+}
+.tdDay1{
+	text-align: left;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+.tdDay2{width:90%;}
+
+.displayinnertable{width:100%;
+	border-right: 1px solid #000000;border-bottom: 1px solid #000000;
+}
+.thPeriod{
+	border-right: 1px solid #000000;	
+	border-bottom: 1px solid #000000;
+	font-size: 12px;cursor:default;
+}
+.tdPeriod,.tdbreak, .tdClass{
+	text-align: center;
+	border-right: 1px solid #000000;border-bottom: 1px solid #000000;
+	font-size:12px;
+	cursor:default;
+	text-transform: capitalize;
+}
+
+.pagebreak{
+	page-break-after: always;	
+}
+
+.pagebreakleft{
+	page-break-after: always;	
+}
+
+@page{
+	size: auto;
+	margin: 1cm;
+	orphans:3;
+	widows:3;
+}
+
+@page printportrait{
+	size: A4 portrait;
+}
+
+@page printlandscape{
+	size: A4 landscape;
+}
+
+/***** class list printing *******/
+.asdfg{
+	height:auto; width:100%;
+}
+.gfdsa{
+	min-height:415px; margin:0 auto; padding:10px 10px 10px; background:#fff; width:595px;
+}
+.wt98yu{
+	margin-bottom: 10px;
+	page-break-after: always;
+}
+.fgdsa{
+	width:100%; font-size:12px;
+}
+.sadfg{
+	width:10%; vertical-align:top;
+}
+.lctn{
+	width:100px;
+}
+.cnda{
+	width:50%;
+}
+.pslo{
+	background-color: #fff;
+	width:70px;
+}
+.tbdas{
+	width:100%; 
+	/*border-left:1px solid #ddd;*/
+	border-top:1px solid #eee;
+	font-size:12px;
+}
+.tbthr{
+	border-bottom:1px solid #ddd;
+	border-left: 1px solid #ddd;
+}
+.tbhr1{
+	text-align:left;border-bottom: 1px solid #ddd;
+}
+.tbhr2{
+	text-align:left;padding-left:20px;border-right:1px solid #ddd;border-bottom: 1px solid #ddd;
+}
+.tbhr3{
+	border-right:1px solid #ddd; border-bottom: 1px solid #ddd;
+}
+.tbhr4{
+	border-right:1px solid #ddd; border-bottom: 1px solid #ddd;
+}
+.tbd1{width:5%;text-align:center;}
+.tbd2{width:46%;text-align:left;text-transform:capitalize;padding-left:20px;}
+.tbd3{
+	width:10%;
+	text-align:center;
+	text-transform: uppercase;
+}
+.tbd4{
+	width:30%;
+	text-align:center; 
+	vertical-align:bottom;
+	text-transform: capitalize;
+	font-size: 12px;
+}
+.tbdi{width:4%;}
+
+.bb{border-bottom:1px solid #ddd;}
+.br{
+	border-right:1px solid #ddd;
+	border-left:1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+.hht {
+	text-align: center;
+	padding: 5px 0;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.signature{ width:100%; padding:5px 0 0; margin:0 0 3px; border-bottom:1px dashed black;}
+
+#clhlogo, #clhlogo1{
+	margin:5px; padding:3px; background:#fff;
+}
+#schheaden{ 
+	/*border-top:1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;*/
+	padding-bottom:5px
+}
+#clhschname{
+	font-size: 18px;
+    text-transform: capitalize;
+    color:#888;
+    margin-bottom:5px;
+}
+#clhschaddress{
+	color: #999;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+#clhformname{
+	color: #333;
+    font-size: 12px;
+    font-weight: bolder;
+    margin: 0;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.footer{
+	display : none;
+}

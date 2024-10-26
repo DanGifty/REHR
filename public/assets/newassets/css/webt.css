@@ -1,0 +1,330 @@
+.hom12{
+    text-align:left;background-color: #fff;color:#555;
+}
+
+.hom12 > li > a{
+    padding: 5px 10px; 
+    font-size: 12px; 
+    border-radius:0;
+}
+
+.hom12 > li > a:hover{
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+   background-image: -moz-linear-gradient(top,#fff,#fff);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#fff));
+    background-image: -webkit-linear-gradient(top,#fff,#fff);
+    background-image: -o-linear-gradient(top,#fff,#fff);
+    background-image: linear-gradient(to bottom,#fff,#fff);
+    background-repeat: repeat-x;
+   /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc',endColorstr='#ff0077b3',GradientType=0);*/
+}
+.webt_uio{
+	clear: both;
+	color: #404040;
+	overflow: hidden;
+}
+.tbl{ display:table;}
+.fwh{ width:100%;}
+.hwh{ width:50%;}
+.4wh{ width:40%;}
+.6wh{ width:60%;}
+.mht{ min-height:300px;}
+.tbr{ display:table-row;}
+.tbc{ display:table-cell; vertical-align:top;}
+.tssa{
+	width:42%;
+	background: none repeat scroll 0 0 #deeefd;
+    border: 1px solid;
+    height: 466px;
+    padding: 3px;
+}
+.tsba{width:14%}
+.divider{width:1px;}
+.ssbg{
+	background: #ffffff;
+}
+
+.clp909{
+    background: #cce6f9;
+    padding: 5px;
+    margin: 0 10px;
+    border: 1px solid #9bb5ce;
+    display: inline-table;
+    width: 100px;
+    text-align: center;
+}
+.clp909 a{
+    padding:0px 5px;
+    text-align:center;
+    text-decoration:none;
+}
+.clp909:hover {
+     background: #9bb5ce;
+     border: 1px solid #cce6f9;
+     color:#091a2b;
+}
+
+
+.summaryarea{ 
+	min-height:500px;
+	overflow:auto;	
+	background-color: #fff; 
+    margin-top: 10px;
+    position: relative;
+}
+.subtbl{
+	background:#888;
+	min-height:434px;
+	max-height:434px;
+	overflow:auto;
+}
+.subhdn{
+	background:#444; 
+	padding:5px 0;
+	color:#eee;
+	background: #091a2b;
+    color: #eeeeee;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.subtable thead tr th:first {
+	
+}
+
+.sel{
+	text-transform: capitalize;
+	width:100%;border-radius:0px;
+}
+
+.cssel{
+    text-transform: capitalize;
+    border-radius:0px;
+    margin-bottom: 0px;
+    float: right;
+    width: 300px;
+}
+
+.sc-ctms{
+    background: none repeat scroll 0 0 transparent;
+    color: #888888;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 0px;
+    text-transform: capitalize;
+    border-bottom: 1px solid #aaa;   
+}
+
+.ctmsh{
+    padding-left: 10px;
+    line-height: 30px;
+}
+
+.ctmsv{
+    padding-right: 10px;
+}
+
+.sumcd{
+	
+}
+.sum1d{
+	border:1px solid #aaa;
+	margin-bottom: 10px;
+}
+.sumhd{
+	padding: 6px 5px;
+    background: transparent;
+    font: 900 14px helvetica;
+    color: #000;
+    text-transform: capitalize;
+    border-bottom: 1px solid #aaa;
+}
+.sumtxt{
+	border-top:1px solid #dee; 
+	padding:7px 5px;
+}
+.ashd{
+	color: #228272; /*0c51db; 228272;;*/
+    font-family: Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    vertical-align: middle;
+   padding: 10px 5px;
+}
+.asbd{
+	color: #555555;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.ssv{
+    text-transform: uppercase;
+    vertical-align: middle;
+    display: inline-table;
+    font-size: 12px;
+    padding: 3px 0;
+    font-weight: 500;
+}
+
+/****** Timetable ******/
+.mcc{
+	margin:5px;
+}
+.tth{
+	text-align:center;background: #ddd;color:#777; 
+}
+.tth span{
+	padding:12px 0;	
+	cursor: pointer;
+	font:700 12px helvetica;
+	text-transform: uppercase;
+	border-right: 1px solid #aaa;
+}
+.tth span:hover, .tat{
+	background: #313334;
+	color:#fff;	
+}
+
+.ttb{
+	margin:1px 0;
+	border: 1px solid #636769;
+	padding:5px;
+	min-height: 450px;
+}
+.ttbc{
+	
+}
+
+.ttpdc{
+    height: 37px;
+    padding: 3px;
+    width: 30%;
+}
+.ttpdd{
+    height: 367px;
+    padding: 3px;
+    width: 69%;
+}
+.tpp{
+    padding: 5px;
+}
+.teacherdisplaydeletecontainer > a,
+.teacherdisplaydeletecontainer > a:hover{
+	cursor:pointer;
+	text-decoration: none;
+	color:#f00;
+}
+
+.sic09{
+	
+}
+.sic09 tr:first-child{
+	color: #999;
+    font-family: "Roboto";
+    font-size: 12px;
+    height: 25px;
+    vertical-align: bottom;
+}
+.sic09 tr:last-child{
+	color: #555555;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.sic09 .sih{
+	font-size:10px;
+    color: #228272; /*0c51db; 228272;*/
+    font-weight: 600;
+}
+
+.trjh14 {
+    padding: 10px;
+    min-height: 40px;
+    overflow: auto;
+}
+.trctms {
+    background: none repeat scroll 0 0 #d8e9fa;
+    color: #b7b7b7;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-transform: capitalize;
+    border-radius:5px 5px 0 0;
+    border-bottom: 1px solid rgba(158, 142, 245, 0.2);
+}
+
+.trpdis{
+	background-color: #F2F7FC;
+    border: 1px solid #BBBBBB;
+    box-shadow: 1px 1px 5px #888888;
+    height: auto;
+    margin-top: 10px;    
+    position: relative;
+    min-height:600px;
+    border-radius: 5px;
+}
+
+.tr87d{
+	overflow: auto;
+	padding: 10px;
+}
+
+.midareainfo{
+    margin-top:45px;
+    /*background-image: url("/public/images/bgdesign.png");*/
+    background-color: #228272; /*0c51db; 071cb9; 228272;*/
+    text-transform:uppercase;
+    color: #fff;    
+}
+.midareainfo h5{
+    vertical-align: middle;
+}
+
+.setfix{
+	/*z-index: 9;*/
+	position: fixed;
+	top: 45px;
+    width: 270px;
+    -webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+
+.mv89{
+    border-left:1px solid #eee; 
+    border-top:1px solid #ddd;
+    font-size:12px;
+}
+.mvr86{
+    background:#f2f7fc; 
+    border-bottom:1px solid #ddd;
+    color:#228272;
+}
+.mvec{
+    padding: 0px;
+    overflow: hidden;
+}
+.mvec .mveccon, .empscon .mveccon{
+    min-height:470px; width:100%;
+}
+.mvec .mveccon #showme, .empscon .mveccon #showme{
+    padding:5px;
+}
+.mveccon .page-header h1{
+    font-size: 100px;
+    line-height: 110px;
+}
+.mveccon .page-header small{
+    color: #468847;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
