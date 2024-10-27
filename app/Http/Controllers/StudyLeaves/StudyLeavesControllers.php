@@ -103,7 +103,7 @@ class StudyLeavesControllers extends Controller
 
 
     public function verifyLetter($id){
-        //dd($id);
+        dd($id);
         $code = decrypt($id);
         //$code = $id;
         $studyleave = StudyLeaves::where('serial_number',$code)->first();
