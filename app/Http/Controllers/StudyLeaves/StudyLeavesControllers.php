@@ -103,9 +103,8 @@ class StudyLeavesControllers extends Controller
 
 
     public function verifyLetter($id){
-        dd($id);
         $code = decrypt($id);
-        //$code = $id;
+        dd($code);
         $studyleave = StudyLeaves::where('serial_number',$code)->first();
         if($studyleave){
             return view('studyleaves.verify',compact('studyleave'));
