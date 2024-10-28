@@ -35,9 +35,6 @@ class StudyLeaves extends Model
             $serialNumber->serial_number = static::generateUniqueSerialNumber($staffid,$doc_count);
         });
     }
-
-
-
     protected static function generateUniqueSerialNumber($staffid,$doc_count){
         $prefix = 'REDE-SL'.gmdate('Y').'-'.$staffid.'-';
         $suffix = Str::random(4);
@@ -51,7 +48,6 @@ class StudyLeaves extends Model
     }
 
     public static function generateBarCodeImage($snumber){
-
         $data = encrypt($snumber);
         $barcodeData = "https://redms.sbaresultchecker.com/verify-study-leave/" .$data;
 

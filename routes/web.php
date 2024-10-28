@@ -34,6 +34,6 @@ Route::middleware('auth')->group(function(){
 });
 
 //VERIFICATION ROUTES
-Route::get('/verify-study-leave/{id}', [StudyLeavesControllers::class,'verifyLetter']);
+Route::get('/verify-study-leave/{id}', [StudyLeavesControllers::class,'verifyLetter'])->name('verifyLetter');
 
 
