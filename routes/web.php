@@ -10,7 +10,6 @@ Route::get('/admin', function () {
 });
 
 Route::post('/login', [App\Http\Controllers\Auth\LoginController::class, 'logMeIn'])->name('login');
-
 Auth::routes();
 
 Route::middleware('auth')->group(function(){
@@ -21,7 +20,6 @@ Route::middleware('auth')->group(function(){
         Route::get('/create','create')->name('create');
         Route::post('/store','store')->name('store');
     });
-
     Route::prefix('studyleave')->name('studyleave.')->controller(StudyLeavesControllers::class)->group(function(){
         Route::get('/','list')->name('list');
         Route::get('/create','create')->name('create');
