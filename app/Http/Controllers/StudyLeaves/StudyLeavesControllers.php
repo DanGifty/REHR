@@ -111,4 +111,24 @@ class StudyLeavesControllers extends Controller
         return view('studyleaves.notverify');
 
     }
+
+    public function getStudyLeave(){
+        return view('studyleaves.staffwatch');
+    }
+
+    public function getMyLetter(Request $request){
+        $studyleave = StudyLeaves::where('staffid',trim($request->staffid))
+        ->whereYear('created_at',$request->year)->first();
+        if($studyleave){
+            //dd($studyleave);
+            return view('studyleaves.studyleaveletter',compact('studyleave'));
+        }
+       return redirect()->back()->with('error','No letter found');
+    }
+
+
+    private function printSingleNow($id){
+        $studyleave = StudyLeaves::find(decrypt($id));
+        return view('studyleaves.studyleaveletter',compact('studyleave'));
+    }
 }

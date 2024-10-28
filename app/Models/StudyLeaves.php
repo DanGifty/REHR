@@ -38,10 +38,10 @@ class StudyLeaves extends Model
     protected static function generateUniqueSerialNumber($staffid,$doc_count){
         $prefix = 'REDE-SL'.gmdate('Y').'-'.$staffid.'-';
         $suffix = Str::random(4);
-        $snumber = $prefix.$doc_count;
+        $snumber = $prefix.$doc_count.'-'.$suffix;
         while(static::where('serial_number',$snumber)->exists()){
             $suffix = Str::random(6);
-            $snumber = $prefix.$suffix;
+            $snumber = $prefix.$doc_count.'-'.$suffix;
         }
         self::generateBarCodeImage($snumber);
         return $snumber;
